@@ -1,0 +1,12 @@
+server:
+  port: 51608
+spring:
+  application:
+    name: jshy-wemedia-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 110.40.221.30:8848
+      config:
+        server-addr: 110.40.221.30:8848
+        file-extension: yml

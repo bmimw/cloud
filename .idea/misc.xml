@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-service/jshy-wemedia/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-gateway/jshy-wemedia-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-service/jshy-article/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-test/es-init/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-service/jshy-search/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jshy-file-starter/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jshy-test/HTML/HTML.iml" filepath="$PROJECT_DIR$/jshy-test/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-test/es-init/es-init.iml" filepath="$PROJECT_DIR$/jshy-test/es-init/es-init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy.iml" filepath="$PROJECT_DIR$/jshy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-gateway/jshy-app-gateway/jshy-app-gateway.iml" filepath="$PROJECT_DIR$/jshy-gateway/jshy-app-gateway/jshy-app-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy-article/jshy-article.iml" filepath="$PROJECT_DIR$/jshy-service/jshy-article/jshy-article.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-basic/jshy-basic.iml" filepath="$PROJECT_DIR$/jshy-basic/jshy-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-basic/jshy-check-starter/jshy-check-starter.iml" filepath="$PROJECT_DIR$/jshy-basic/jshy-check-starter/jshy-check-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-gateway/jshy-commodity-gateway/jshy-commodity-gateway.iml" filepath="$PROJECT_DIR$/jshy-gateway/jshy-commodity-gateway/jshy-commodity-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-common/jshy-common.iml" filepath="$PROJECT_DIR$/jshy-common/jshy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-feign-api/jshy-feign-api.iml" filepath="$PROJECT_DIR$/jshy-feign-api/jshy-feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-basic/jshy-file-starter/jshy-file-starter.iml" filepath="$PROJECT_DIR$/jshy-basic/jshy-file-starter/jshy-file-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-gateway/jshy-gateway.iml" filepath="$PROJECT_DIR$/jshy-gateway/jshy-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-model/jshy-model.iml" filepath="$PROJECT_DIR$/jshy-model/jshy-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy-search/jshy-search.iml" filepath="$PROJECT_DIR$/jshy-service/jshy-search/jshy-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy-service.iml" filepath="$PROJECT_DIR$/jshy-service/jshy-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-test/jshy-test.iml" filepath="$PROJECT_DIR$/jshy-test/jshy-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy-user/jshy-user.iml" filepath="$PROJECT_DIR$/jshy-service/jshy-user/jshy-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-utils/jshy-utils.iml" filepath="$PROJECT_DIR$/jshy-utils/jshy-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy-wemedia/jshy-wemedia.iml" filepath="$PROJECT_DIR$/jshy-service/jshy-wemedia/jshy-wemedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-gateway/jshy-wemedia-gateway/jshy-wemedia-gateway.iml" filepath="$PROJECT_DIR$/jshy-gateway/jshy-wemedia-gateway/jshy-wemedia-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy_commodity/jshy_commodity.iml" filepath="$PROJECT_DIR$/jshy-service/jshy_commodity/jshy_commodity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-test/minio-demo/minio-demo.iml" filepath="$PROJECT_DIR$/jshy-test/minio-demo/minio-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-test/ocr-demo/ocr-demo.iml" filepath="$PROJECT_DIR$/jshy-test/ocr-demo/ocr-demo.iml" />
+    </modules>
+  </component>
+</project>

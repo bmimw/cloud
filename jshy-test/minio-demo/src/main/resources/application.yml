@@ -1,0 +1,6 @@
+minio:
+  accessKey: kJco4nTSVc6ztCDAoJGJ
+  secretKey: q1jEyK3kD6yU0nrrooGxkUFj45ZqaIZ442PSJYYu
+  bucket: jshy
+  endpoint: http://110.40.221.30:9001
+  readPath: http://110.40.221.30:9001

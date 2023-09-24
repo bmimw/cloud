@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="minio-demo" />
+        <module name="jshy-app-gateway" />
+        <module name="jshy-feign-api" />
+        <module name="jshy-article" />
+        <module name="jshy-model" />
+        <module name="jshy-search" />
+        <module name="jshy_commodity" />
+        <module name="HTML" />
+        <module name="jshy-check-starter" />
+        <module name="jshy-commodity-gateway" />
+        <module name="jshy-user" />
+        <module name="ocr-demo" />
+        <module name="es-init" />
+        <module name="jshy-wemedia-gateway" />
+        <module name="jshy-utils" />
+        <module name="jshy-common" />
+        <module name="jshy-file-starter" />
+        <module name="jshy-wemedia" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="es-init" target="1.8" />
+      <module name="heima-leadnews-apis" target="1.8" />
+      <module name="HTML" target="1.8" />
+      <module name="jshy" target="1.8" />
+      <module name="jshy-app-gateway" target="1.8" />
+      <module name="jshy-article" target="1.8" />
+      <module name="jshy-basic" target="1.8" />
+      <module name="jshy-check-starter" target="1.8" />
+      <module name="jshy-commodity-gateway" target="1.8" />
+      <module name="jshy-common" target="1.8" />
+      <module name="jshy-feign-api" target="1.8" />
+      <module name="jshy-file-starter" target="1.8" />
+      <module name="jshy-gateway" target="1.8" />
+      <module name="jshy-model" target="1.8" />
+      <module name="jshy-search" target="1.8" />
+      <module name="jshy-service" target="1.8" />
+      <module name="jshy-test" target="1.8" />
+      <module name="jshy-user" target="1.8" />
+      <module name="jshy-utils" target="1.8" />
+      <module name="jshy-wemedia" target="1.8" />
+      <module name="jshy-wemedia-gateway" target="1.8" />
+      <module name="jshy_commodity" target="1.8" />
+      <module name="minio-demo" target="1.8" />
+      <module name="ocr-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HTML" options="-parameters" />
+      <module name="es-init" options="-parameters" />
+      <module name="heima-leadnews-apis" options="-parameters" />
+      <module name="jshy-app-gateway" options="-parameters" />
+      <module name="jshy-article" options="-parameters" />
+      <module name="jshy-check-starter" options="-parameters" />
+      <module name="jshy-commodity-gateway" options="-parameters" />
+      <module name="jshy-common" options="-parameters" />
+      <module name="jshy-feign-api" options="-parameters" />
+      <module name="jshy-file-starter" options="-parameters" />
+      <module name="jshy-gateway" options="" />
+      <module name="jshy-model" options="-parameters" />
+      <module name="jshy-search" options="-parameters" />
+      <module name="jshy-service" options="" />
+      <module name="jshy-test" options="" />
+      <module name="jshy-user" options="-parameters" />
+      <module name="jshy-utils" options="-parameters" />
+      <module name="jshy-wemedia" options="-parameters" />
+      <module name="jshy-wemedia-gateway" options="-parameters" />
+      <module name="jshy_commodity" options="-parameters" />
+      <module name="minio-demo" options="-parameters" />
+      <module name="ocr-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

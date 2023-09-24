@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "tess4j",
+      "type": "com.jshy.common.tess4j.Tess4jClient",
+      "sourceType": "com.jshy.common.tess4j.Tess4jClient"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tess4j.data-path",
+      "type": "java.lang.String",
+      "sourceType": "com.jshy.common.tess4j.Tess4jClient"
+    },
+    {
+      "name": "tess4j.language",
+      "type": "java.lang.String",
+      "sourceType": "com.jshy.common.tess4j.Tess4jClient"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,12 @@
+server:
+  port: 51904
+spring:
+  application:
+    name: jshy-commodity
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 110.40.221.30:8848
+      config:
+        server-addr: 110.40.221.30:8848
+        file-extension: yml

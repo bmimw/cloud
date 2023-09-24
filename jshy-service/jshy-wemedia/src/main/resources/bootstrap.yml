@@ -1,0 +1,15 @@
+server:
+  port: 51804
+spring:
+  application:
+    name: jshy-wemedia
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 110.40.221.30:8848
+      config:
+        server-addr: 110.40.221.30:8848
+        file-extension: yml
+tess4j:
+  data-path: D:\Hei_Ma\cloud-store\ziyuan
+  language: chi_sim
