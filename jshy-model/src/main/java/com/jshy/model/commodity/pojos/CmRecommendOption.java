@@ -7,9 +7,11 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
 @TableName("cm_recommend_option")
-public class CmRecommendOption {
+public class CmRecommendOption implements Serializable {
 
   private static final long serialVersionUID = 1L;
   /**

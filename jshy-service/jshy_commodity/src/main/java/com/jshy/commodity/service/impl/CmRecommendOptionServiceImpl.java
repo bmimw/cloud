@@ -50,10 +50,6 @@ public class CmRecommendOptionServiceImpl extends ServiceImpl<CmRecommendOptionM
                 subType.setId(string[1]);
                 subType.setTitle(string[0]);
                 subTypes.add(subType);
-//                boolean add = cmRecommendDetailsDto.getSubTypes().add(subType);
-//                if (!add){
-//                    throw new RuntimeException("添加推荐选项失败");
-//                }
             }
         }
         cmRecommendDetailsDto.setSubTypes(subTypes);

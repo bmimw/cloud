@@ -9,4 +9,8 @@ public interface CmParentService extends IService<CmParent> {
      * 获取首页分类
      * */
     public ResponseResult findIndexParent();
+    /**
+     * 显示一二级分类页面
+     * */
+    public ResponseResult findCategoryParent();
 }

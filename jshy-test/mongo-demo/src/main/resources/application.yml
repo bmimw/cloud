@@ -1,0 +1,8 @@
+server:
+  port: 9998
+spring:
+  data:
+    mongodb:
+      host: 110.40.221.30
+      port: 27017
+      database: jshy-history

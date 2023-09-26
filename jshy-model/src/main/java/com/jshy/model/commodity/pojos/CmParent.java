@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 @Data
 @TableName("cm_parent")
-public class CmParent implements Serializable {
+public class CmParent implements Serializable{
 
   private static final long serialVersionUID = 1L;
   /**
@@ -37,7 +37,7 @@ public class CmParent implements Serializable {
   /**
    * 父类的id
    */
-  @TableField("parent")
-  private Integer parent;
+  @TableField("parent_id")
+  private Integer parentId;
 
 }

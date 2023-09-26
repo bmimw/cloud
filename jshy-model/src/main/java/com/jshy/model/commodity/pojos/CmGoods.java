@@ -6,9 +6,11 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
 @TableName("cm_goods")
-public class CmGoods {
+public class CmGoods implements Serializable {
 
   private static final long serialVersionUID = 1L;
   /**

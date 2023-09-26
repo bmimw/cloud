@@ -22,6 +22,7 @@
         <module name="es-init" />
         <module name="jshy-wemedia-gateway" />
         <module name="jshy-utils" />
+        <module name="mongo-demo" />
         <module name="jshy-common" />
         <module name="jshy-file-starter" />
         <module name="jshy-wemedia" />
@@ -51,6 +52,7 @@
       <module name="jshy-wemedia-gateway" target="1.8" />
       <module name="jshy_commodity" target="1.8" />
       <module name="minio-demo" target="1.8" />
+      <module name="mongo-demo" target="1.8" />
       <module name="ocr-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -77,6 +79,7 @@
       <module name="jshy-wemedia-gateway" options="-parameters" />
       <module name="jshy_commodity" options="-parameters" />
       <module name="minio-demo" options="-parameters" />
+      <module name="mongo-demo" options="-parameters" />
       <module name="ocr-demo" options="-parameters" />
     </option>
   </component>

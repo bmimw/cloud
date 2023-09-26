@@ -6,9 +6,11 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
 @TableName("cm_specs")
-public class CmSpecs {
+public class CmSpecs implements Serializable {
   /**
    * 主键
    */

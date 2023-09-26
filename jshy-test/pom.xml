@@ -15,6 +15,7 @@
         <module>minio-demo</module>
         <module>HTML</module>
         <module>ocr-demo</module>
+        <module>mongo-demo</module>
     </modules>
 
     <properties>
