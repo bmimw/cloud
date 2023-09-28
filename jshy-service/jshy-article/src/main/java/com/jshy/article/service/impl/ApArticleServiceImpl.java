@@ -6,6 +6,7 @@ import com.jshy.article.mapper.ApArticleConfigMapper;
 import com.jshy.article.mapper.ApArticleContentMapper;
 import com.jshy.article.mapper.ApArticleMapper;
 import com.jshy.article.service.ApArticleService;
+import com.jshy.article.service.ArticleFreemarkerService;
 import com.jshy.common.constants.ArticleConstants;
 import com.jshy.model.article.dtos.ArticleDto;
 import com.jshy.model.article.dtos.ArticleHomeDto;
@@ -77,6 +78,9 @@ public class ApArticleServiceImpl  extends ServiceImpl<ApArticleMapper, ApArticl
     @Autowired
     private ApArticleContentMapper apArticleContentMapper;
 
+
+    @Autowired
+    ArticleFreemarkerService articleFreemarkerService;
     /**
      * 保存app端相关文章
      * @param dto
@@ -121,6 +125,8 @@ public class ApArticleServiceImpl  extends ServiceImpl<ApArticleMapper, ApArticl
             apArticleContentMapper.updateById(apArticleContent);
         }
 
+        //异步调用 生成静态文件上传到minio中
+        articleFreemarkerService.buildArticleToMinIO(apArticle,dto.getContent());
 
         //3.结果返回  文章的id
         return ResponseResult.okResult(apArticle.getId());
