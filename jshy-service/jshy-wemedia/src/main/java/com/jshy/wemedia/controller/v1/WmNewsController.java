@@ -31,4 +31,11 @@ public class WmNewsController {
     public ResponseResult submitNews(@RequestBody WmNewsDto dto){
         return  wmNewsService.submitNews(dto);
     }
+
+
+    @PostMapping("/down_or_up")
+    @ApiOperation("kafka文章的上下架")
+    public ResponseResult downOrUp(@RequestBody WmNewsDto dto){
+        return wmNewsService.downOrUp(dto);
+    }
 }

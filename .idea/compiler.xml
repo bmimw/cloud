@@ -13,6 +13,7 @@
         <module name="jshy-article" />
         <module name="jshy-model" />
         <module name="jshy-search" />
+        <module name="kafka-demo" />
         <module name="jshy_commodity" />
         <module name="HTML" />
         <module name="jshy-check-starter" />
@@ -20,12 +21,15 @@
         <module name="jshy-user" />
         <module name="ocr-demo" />
         <module name="es-init" />
+        <module name="jshy-schedule" />
         <module name="jshy-wemedia-gateway" />
+        <module name="jshy-admin-gateway" />
         <module name="jshy-utils" />
         <module name="mongo-demo" />
         <module name="jshy-common" />
         <module name="jshy-file-starter" />
         <module name="jshy-wemedia" />
+        <module name="jshy-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +37,8 @@
       <module name="heima-leadnews-apis" target="1.8" />
       <module name="HTML" target="1.8" />
       <module name="jshy" target="1.8" />
+      <module name="jshy-admin" target="1.8" />
+      <module name="jshy-admin-gateway" target="1.8" />
       <module name="jshy-app-gateway" target="1.8" />
       <module name="jshy-article" target="1.8" />
       <module name="jshy-basic" target="1.8" />
@@ -43,6 +49,7 @@
       <module name="jshy-file-starter" target="1.8" />
       <module name="jshy-gateway" target="1.8" />
       <module name="jshy-model" target="1.8" />
+      <module name="jshy-schedule" target="1.8" />
       <module name="jshy-search" target="1.8" />
       <module name="jshy-service" target="1.8" />
       <module name="jshy-test" target="1.8" />
@@ -51,6 +58,7 @@
       <module name="jshy-wemedia" target="1.8" />
       <module name="jshy-wemedia-gateway" target="1.8" />
       <module name="jshy_commodity" target="1.8" />
+      <module name="kafka-demo" target="1.8" />
       <module name="minio-demo" target="1.8" />
       <module name="mongo-demo" target="1.8" />
       <module name="ocr-demo" target="1.8" />
@@ -61,6 +69,8 @@
       <module name="HTML" options="-parameters" />
       <module name="es-init" options="-parameters" />
       <module name="heima-leadnews-apis" options="-parameters" />
+      <module name="jshy-admin" options="-parameters" />
+      <module name="jshy-admin-gateway" options="-parameters" />
       <module name="jshy-app-gateway" options="-parameters" />
       <module name="jshy-article" options="-parameters" />
       <module name="jshy-check-starter" options="-parameters" />
@@ -70,6 +80,7 @@
       <module name="jshy-file-starter" options="-parameters" />
       <module name="jshy-gateway" options="" />
       <module name="jshy-model" options="-parameters" />
+      <module name="jshy-schedule" options="-parameters" />
       <module name="jshy-search" options="-parameters" />
       <module name="jshy-service" options="" />
       <module name="jshy-test" options="" />
@@ -78,6 +89,7 @@
       <module name="jshy-wemedia" options="-parameters" />
       <module name="jshy-wemedia-gateway" options="-parameters" />
       <module name="jshy_commodity" options="-parameters" />
+      <module name="kafka-demo" options="-parameters" />
       <module name="minio-demo" options="-parameters" />
       <module name="mongo-demo" options="-parameters" />
       <module name="ocr-demo" options="-parameters" />

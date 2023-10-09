@@ -15,6 +15,7 @@
         <module>jshy-app-gateway</module>
         <module>jshy-wemedia-gateway</module>
         <module>jshy-commodity-gateway</module>
+        <module>jshy-admin-gateway</module>
     </modules>
 
     <properties>

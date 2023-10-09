@@ -1,7 +1,7 @@
-package com.heima.utils.common;
+package com.jshy.utils.common;
 
 
-import com.heima.model.wemedia.pojos.WmNews;
+import com.jshy.model.wemedia.pojos.WmNews;
 import io.protostuff.LinkedBuffer;
 import io.protostuff.ProtostuffIOUtil;
 import io.protostuff.Schema;

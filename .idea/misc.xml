@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/jshy-test/es-init/pom.xml" />
         <option value="$PROJECT_DIR$/jshy-service/jshy-search/pom.xml" />
         <option value="$PROJECT_DIR$/jshy-test/mongo-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-service/jshy-schedule/jshy-schedule/pom.xml" />
+        <option value="$PROJECT_DIR$/jshy-service/jshy-schedule/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

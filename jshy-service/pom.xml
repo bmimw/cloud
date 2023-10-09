@@ -17,6 +17,7 @@
         <module>jshy_commodity</module>
         <module>jshy-article</module>
         <module>jshy-search</module>
+        <module>jshy-admin</module>
     </modules>
 
     <properties>

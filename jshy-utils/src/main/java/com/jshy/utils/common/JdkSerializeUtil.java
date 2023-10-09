@@ -1,4 +1,4 @@
-package com.heima.utils.common;
+package com.jshy.utils.common;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

@@ -1,6 +1,7 @@
 package com.jshy.user.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.jshy.model.admin.dtos.AdUserDto;
 import com.jshy.model.common.dtos.ResponseResult;
 import com.jshy.model.user.dtos.LoginDto;
 import com.jshy.model.user.dtos.RegisterDto;
@@ -20,4 +21,5 @@ public interface ApUserService extends IService<ApUser>{
      * @return
      */
     public ResponseResult register(RegisterDto dto);
+
 }
