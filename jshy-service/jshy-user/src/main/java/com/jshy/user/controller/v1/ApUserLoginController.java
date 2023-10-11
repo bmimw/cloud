@@ -31,6 +31,7 @@ public class ApUserLoginController {
     public ResponseResult register(@RequestBody RegisterDto dto) {
         return apUserService.register(dto);
     }
+
 //    @PostMapping("/reset")
 //    @ApiOperation("忘记密码、重置密码接口")
 //    public ResponseResult reset(@RequestBody ResetDto dto){

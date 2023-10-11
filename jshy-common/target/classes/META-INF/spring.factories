@@ -3,4 +3,5 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
   com.jshy.common.swagger.SwaggerConfiguration,\
   com.jshy.common.knife4j.Swagger2Configuration,\
   com.jshy.common.tess4j.Tess4jClient,\
-  com.jshy.common.redis.CacheService
+  com.jshy.common.redis.CacheService,\
+  com.jshy.common.jackson.InitJacksonConfig

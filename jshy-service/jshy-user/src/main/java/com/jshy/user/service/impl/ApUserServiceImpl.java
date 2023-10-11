@@ -1,25 +1,31 @@
 package com.jshy.user.service.impl;
 
+import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.jshy.common.redis.CacheService;
 import com.jshy.model.admin.dtos.AdUserDto;
 import com.jshy.model.common.dtos.PageResponseResult;
 import com.jshy.model.common.dtos.ResponseResult;
 import com.jshy.model.common.enums.AppHttpCodeEnum;
 import com.jshy.model.user.dtos.LoginDto;
 import com.jshy.model.user.dtos.RegisterDto;
+import com.jshy.model.user.dtos.UserRelationDto;
 import com.jshy.model.user.pojos.ApUser;
 import com.jshy.user.mapper.ApUserMapper;
 import com.jshy.user.service.ApUserService;
 import com.jshy.utils.common.AppJwtUtil;
+import com.jshy.utils.thread.AppThreadLocalUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -99,4 +105,38 @@ public class ApUserServiceImpl extends ServiceImpl<ApUserMapper, ApUser> impleme
         }
     }
 
+    @Autowired
+    CacheService cacheService;
+
+    /**
+     * 用户关注、取消关注作者
+     */
+    @Override
+    public ResponseResult userFollow(HttpServletRequest request,UserRelationDto dto) {
+        //得到header中的信息
+        String userId = request.getHeader("userId");
+//        //获取用户信息
+//        ApUser apUser = AppThreadLocalUtils.getUser();
+//        if (apUser == null) {
+//            return ResponseResult.errorResult(AppHttpCodeEnum.NEED_LOGIN);
+//        }
+        String keyUser = userId + "_follow";
+        String fansUser = dto.getAuthorId() + "_fans";
+        if (dto.getOperation()==0) {
+            //关注
+            //以用户为主键添加关注
+            cacheService.sAdd(keyUser, String.valueOf(dto.getAuthorId()));
+            //给关注者添加粉丝
+            cacheService.sAdd(fansUser, userId);
+            return ResponseResult.okResult(null);
+        } else if (dto.getOperation()==1) {
+            //取消关注
+            //以用户为主键取消关注
+            cacheService.sRemove(keyUser, String.valueOf(dto.getAuthorId()));
+            //给关注者取消粉丝
+            cacheService.sRemove(fansUser, userId);
+            return ResponseResult.okResult(null);
+        }
+        return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+    }
 }

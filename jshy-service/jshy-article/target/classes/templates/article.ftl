@@ -169,7 +169,7 @@
 </div>
 
 <!-- 引入 Vue 和 Vant 的 JS 文件 -->
-<script src=" https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js">
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js">
 </script>
 <script src="https://cdn.jsdelivr.net/npm/vant@2.12.20/lib/vant.min.js"></script>
 <!-- 引入 Axios 的 JS 文件 -->

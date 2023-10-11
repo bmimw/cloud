@@ -1,0 +1,12 @@
+server:
+  port: 51677
+spring:
+  application:
+    name: jshy-behavior
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 110.40.221.30:8848
+      config:
+        server-addr: 110.40.221.30:8848
+        file-extension: yml

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/jshy-gateway/jshy-app-gateway/jshy-app-gateway.iml" filepath="$PROJECT_DIR$/jshy-gateway/jshy-app-gateway/jshy-app-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy-article/jshy-article.iml" filepath="$PROJECT_DIR$/jshy-service/jshy-article/jshy-article.iml" />
       <module fileurl="file://$PROJECT_DIR$/jshy-basic/jshy-basic.iml" filepath="$PROJECT_DIR$/jshy-basic/jshy-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-service/jshy-behavior/jshy-behavior.iml" filepath="$PROJECT_DIR$/jshy-service/jshy-behavior/jshy-behavior.iml" />
       <module fileurl="file://$PROJECT_DIR$/jshy-basic/jshy-check-starter/jshy-check-starter.iml" filepath="$PROJECT_DIR$/jshy-basic/jshy-check-starter/jshy-check-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/jshy-gateway/jshy-commodity-gateway/jshy-commodity-gateway.iml" filepath="$PROJECT_DIR$/jshy-gateway/jshy-commodity-gateway/jshy-commodity-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/jshy-common/jshy-common.iml" filepath="$PROJECT_DIR$/jshy-common/jshy-common.iml" />

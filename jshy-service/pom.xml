@@ -18,6 +18,7 @@
         <module>jshy-article</module>
         <module>jshy-search</module>
         <module>jshy-admin</module>
+        <module>jshy-behavior</module>
     </modules>
 
     <properties>

@@ -13,6 +13,7 @@
         <module name="jshy-article" />
         <module name="jshy-model" />
         <module name="jshy-search" />
+        <module name="jshy-behavior" />
         <module name="kafka-demo" />
         <module name="jshy_commodity" />
         <module name="HTML" />
@@ -42,6 +43,7 @@
       <module name="jshy-app-gateway" target="1.8" />
       <module name="jshy-article" target="1.8" />
       <module name="jshy-basic" target="1.8" />
+      <module name="jshy-behavior" target="1.8" />
       <module name="jshy-check-starter" target="1.8" />
       <module name="jshy-commodity-gateway" target="1.8" />
       <module name="jshy-common" target="1.8" />
@@ -73,6 +75,7 @@
       <module name="jshy-admin-gateway" options="-parameters" />
       <module name="jshy-app-gateway" options="-parameters" />
       <module name="jshy-article" options="-parameters" />
+      <module name="jshy-behavior" options="-parameters" />
       <module name="jshy-check-starter" options="-parameters" />
       <module name="jshy-commodity-gateway" options="-parameters" />
       <module name="jshy-common" options="-parameters" />
