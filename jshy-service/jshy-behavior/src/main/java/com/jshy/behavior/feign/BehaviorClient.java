@@ -1,6 +1,7 @@
 package com.jshy.behavior.feign;
 
 import com.jshy.apis.behavior.IBehaviorClient;
+import com.jshy.behavior.service.ApLikesBehaviorService;
 import com.jshy.behavior.service.BehaviorService;
 import com.jshy.model.behavior.dtos.LikesBehaviorDto;
 import com.jshy.model.behavior.dtos.ReadBehaviorDto;
@@ -18,12 +19,15 @@ public class BehaviorClient implements IBehaviorClient {
     @Autowired
     BehaviorService behaviorService;
 
+    @Autowired
+    ApLikesBehaviorService apLikesBehaviorService;
+
     /**
      * 用户点赞
      */
     @Override
     public ResponseResult likesBehavior(@RequestBody LikesBehaviorDto likesBehaviorDto, HttpServletRequest request) {
-        return behaviorService.likesBehavior(likesBehaviorDto,request);
+        return apLikesBehaviorService.likesBehavior(likesBehaviorDto,request);
     }
 
     /**

@@ -36,4 +36,9 @@ public interface IWemediaClient {
     @PostMapping("api/v1/channel/save")
     public ResponseResult saveChannel(@RequestBody AdChannelUpDateDto adChannelUpDateDto);
 
+    /**
+     *搜索所有频道
+     * */
+    public ResponseResult getChannels();
+
 }

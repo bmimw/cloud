@@ -17,6 +17,7 @@
         <module>ocr-demo</module>
         <module>mongo-demo</module>
         <module>kafka-demo</module>
+        <module>xxljob-demo</module>
     </modules>
 
     <properties>

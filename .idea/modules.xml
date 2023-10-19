@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/jshy-test/minio-demo/minio-demo.iml" filepath="$PROJECT_DIR$/jshy-test/minio-demo/minio-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jshy-test/mongo-demo/mongo-demo.iml" filepath="$PROJECT_DIR$/jshy-test/mongo-demo/mongo-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/jshy-test/ocr-demo/ocr-demo.iml" filepath="$PROJECT_DIR$/jshy-test/ocr-demo/ocr-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jshy-test/xxljob-demo/xxljob-demo.iml" filepath="$PROJECT_DIR$/jshy-test/xxljob-demo/xxljob-demo.iml" />
     </modules>
   </component>
 </project>

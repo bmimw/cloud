@@ -46,4 +46,9 @@ public class WemediaClient implements IWemediaClient {
     public ResponseResult saveChannel(AdChannelUpDateDto adChannelUpDateDto) {
         return wmChannelService.saveChannel(adChannelUpDateDto);
     }
+
+    @Override
+    public ResponseResult getChannels() {
+        return wmChannelService.findAll();
+    }
 }

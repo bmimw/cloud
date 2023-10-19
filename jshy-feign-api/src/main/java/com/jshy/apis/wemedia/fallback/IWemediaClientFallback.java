@@ -41,4 +41,9 @@ public class IWemediaClientFallback implements IWemediaClient {
     public ResponseResult saveChannel(AdChannelUpDateDto adChannelUpDateDto) {
         return ResponseResult.errorResult(AppHttpCodeEnum.SERVER_ERROR, "获取数据失败");
     }
+
+    @Override
+    public ResponseResult getChannels() {
+        return ResponseResult.errorResult(AppHttpCodeEnum.SERVER_ERROR, "获取数据失败");
+    }
 }

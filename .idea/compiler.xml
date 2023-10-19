@@ -8,29 +8,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="minio-demo" />
-        <module name="jshy-app-gateway" />
         <module name="jshy-feign-api" />
-        <module name="jshy-article" />
         <module name="jshy-model" />
+        <module name="HTML" />
+        <module name="jshy-commodity-gateway" />
+        <module name="jshy-wemedia-gateway" />
+        <module name="jshy-utils" />
+        <module name="jshy-common" />
+        <module name="jshy-admin" />
+        <module name="jshy-app-gateway" />
+        <module name="jshy-article" />
         <module name="jshy-search" />
         <module name="jshy-behavior" />
         <module name="kafka-demo" />
         <module name="jshy_commodity" />
-        <module name="HTML" />
         <module name="jshy-check-starter" />
-        <module name="jshy-commodity-gateway" />
+        <module name="xxljob-demo" />
         <module name="jshy-user" />
         <module name="ocr-demo" />
         <module name="es-init" />
         <module name="jshy-schedule" />
-        <module name="jshy-wemedia-gateway" />
         <module name="jshy-admin-gateway" />
-        <module name="jshy-utils" />
         <module name="mongo-demo" />
-        <module name="jshy-common" />
         <module name="jshy-file-starter" />
         <module name="jshy-wemedia" />
-        <module name="jshy-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -64,6 +65,7 @@
       <module name="minio-demo" target="1.8" />
       <module name="mongo-demo" target="1.8" />
       <module name="ocr-demo" target="1.8" />
+      <module name="xxljob-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -96,6 +98,7 @@
       <module name="minio-demo" options="-parameters" />
       <module name="mongo-demo" options="-parameters" />
       <module name="ocr-demo" options="-parameters" />
+      <module name="xxljob-demo" options="-parameters" />
     </option>
   </component>
 </project>

@@ -29,15 +29,17 @@ public class ConsumerQuickStart {
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(properties);
 
         //3.订阅主题
-        consumer.subscribe(Collections.singletonList("itjshy-topic"));
+        consumer.subscribe(Collections.singletonList("itcast-topic-out"));
 
         //异步同步提交偏移量
         try {
             while (true){
                 ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(1000));
                 for (ConsumerRecord<String, String> record : records) {
-                    System.out.println(record.value());
                     System.out.println(record.key());
+                    System.out.println(record.value());
+                    System.out.println(record.offset());
+                    System.out.println(record.partition());
                 }
                 consumer.commitAsync();
             }
